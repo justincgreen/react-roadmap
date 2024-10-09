@@ -7,6 +7,11 @@ import Composition from "./components/Composition"
 import PersonOne from "./components/PersonOne"
 import PersonTwo from "./components/PersonTwo"
 
+// Hook Examples
+import UseRefExample from "./hooks/useRefExample"
+import UseRefExampleTwo from "./hooks/useRefExampleTwo"
+import UseRefExampleThree from "./hooks/useRefExampleThree"
+
 
 function App() {
 
@@ -24,6 +29,15 @@ function App() {
       <h1>Higher-Order Components Examples</h1>
       <PersonOne />
       <PersonTwo />
+      <hr />
+      <h1>useRef Example 1</h1>
+      <UseRefExample />
+      <hr />
+      <h1>useRef Example 2 Accessing DOM Elements</h1>
+      <UseRefExampleTwo />
+      <hr />
+      <h1>useRef Example 3 Tracking State Changes</h1>
+      <UseRefExampleThree />
     </>
   )
 }
