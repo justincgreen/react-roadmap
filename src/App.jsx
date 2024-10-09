@@ -3,6 +3,7 @@ import ClassComponent from "./components/ClassComponent"
 import PropsExample from "./components/PropsExample"
 import StateExample from "./components/StateExample"
 import ConditionalRendering from "./components/ConditionalRendering"
+import Composition from "./components/Composition"
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
       <PropsExample greeting="Hello World" />
       <StateExample />
       <ConditionalRendering isVisible={ true } />
+      <Composition>
+        <h1>Example of composition using the "children" prop</h1>
+      </Composition>
     </>
   )
 }
