@@ -4,6 +4,9 @@ import PropsExample from "./components/PropsExample"
 import StateExample from "./components/StateExample"
 import ConditionalRendering from "./components/ConditionalRendering"
 import Composition from "./components/Composition"
+import PersonOne from "./components/PersonOne"
+import PersonTwo from "./components/PersonTwo"
+
 
 function App() {
 
@@ -17,6 +20,10 @@ function App() {
       <Composition>
         <h1>Example of composition using the "children" prop</h1>
       </Composition>
+      <hr />      
+      <h1>Higher-Order Components Examples</h1>
+      <PersonOne />
+      <PersonTwo />
     </>
   )
 }
