@@ -11,6 +11,7 @@ import PersonTwo from "./components/PersonTwo"
 import UseRefExample from "./hooks/useRefExample"
 import UseRefExampleTwo from "./hooks/useRefExampleTwo"
 import UseRefExampleThree from "./hooks/useRefExampleThree"
+import UseReducerExample from "./hooks/UseReducerExample"
 
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
       <hr />
       <h1>useRef Example 3 Tracking State Changes</h1>
       <UseRefExampleThree />
+      <hr />
+      <h1>useReducer Example</h1>
+      <UseReducerExample />
     </>
   )
 }
