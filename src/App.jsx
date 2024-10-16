@@ -12,6 +12,7 @@ import UseRefExample from "./hooks/useRefExample"
 import UseRefExampleTwo from "./hooks/useRefExampleTwo"
 import UseRefExampleThree from "./hooks/useRefExampleThree"
 import UseReducerExample from "./hooks/UseReducerExample"
+import CustomHook from "./hooks/CustomHook"
 
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
       <hr />
       <h1>useReducer Example</h1>
       <UseReducerExample />
+      <hr />
+      <h1>Custom Hook Example</h1>
+      <CustomHook />
     </>
   )
 }
